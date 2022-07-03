@@ -76,13 +76,13 @@ Feel free to add me to your groups.
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
+        photo=f"Uploaded to https://telegra.ph/file/e9edf7a0380f3e9979f27.jpg)",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChu-MusicV2")
+                        " ʀᴇᴘᴏ ⚒️", url=f"https://t.me/C_A_N_D_Y_O_P")
                 ]
             ]
         ),

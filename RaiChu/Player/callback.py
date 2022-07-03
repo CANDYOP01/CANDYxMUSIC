@@ -92,7 +92,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 🤷 » /skip - To Skip current song
 
-🤷 » /repo - To get the repo of RaiChu-Music
+🤷 » /repo - To get the repo of candy
 
 🙋 » /end - To end play song in vc.""",
         reply_markup=InlineKeyboardMarkup(
